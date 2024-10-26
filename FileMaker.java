@@ -106,7 +106,7 @@ public class FileMaker {
                     }
                 }
                 int indexOfSpell = (int) (Math.random() * listOfSpells.size());
-                System.out.println("The Spell You Got Is:\n"+listOfSpells.get(indexOfSpell)+"\nDo You Want to Try Again? Type 1 for Yes and anything else for no");
+                System.out.println("The Spell You Got Is:\n"+listOfSpells.get(indexOfSpell).toStringWrite()+"\nDo You Want to Try Again? Type 1 for Yes and anything else for no");
                 String again = input.nextLine();
                 if(again.length()>1){
                     on = false;
